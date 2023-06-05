@@ -52,7 +52,7 @@ dependencies {
     api 'com.youth.banner:banner:1.4.10'//轮播图
     api 'com.blankj:utilcodex:1.31.1'
     api 'com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.0'//万能适配器
-    api 'com.android.support:recyclerview-v7:30.0.0'//recyclerview
+    api 'com.android.support:recyclerview-v7:33.0.0'//recyclerview
     //核心必须依赖
     api 'com.scwang.smart:refresh-layout-kernel:2.0.3'
     //经典刷新头
@@ -76,13 +76,12 @@ dependencies {
     api 'com.trello.rxlifecycle2:rxlifecycle-components:2.2.2'
 
 
-
-    implementation 'androidx.core:core-ktx:1.8.0'
-    implementation 'androidx.appcompat:appcompat:1.4.1'
-    implementation 'com.google.android.material:material:1.5.0'
+    api 'androidx.core:core-ktx:1.8.0'
+    api 'androidx.appcompat:appcompat:1.6.0-alpha01'
+    api 'com.google.android.material:material:1.5.0'
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+    api 'androidx.test.espresso:espresso-core:3.4.0'
 }
 
 afterEvaluate {
